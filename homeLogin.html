@@ -1,0 +1,528 @@
+<!DOCTYPE html >
+<html lang="en">
+
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8"/>
+	<meta name="viewport" content="initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<Title>Online Mobile Recharge, DTH & Data Card Recharge - User Login</Title>
+    <meta name="description" content="Online Recharge & Data Card Recharge. Easy & Multiple Login modes. Online Mobile Recharge Jio, Airtel, Vodafone, Idea. Online Recharge Dish TV & Tatasky."/>    
+    <link rel="stylesheet" type="text/css" href="css/style8cee.css?id=21Nov2017" media="handheld"/>
+    <link rel="stylesheet" type="text/css" href="css/style8cee.css?id=21Nov2017"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <script src="/js/course9656.js?5Dec2017" async="async"></script>
+	<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">
+			function ShowHidePassword(ID) {
+				//alert('aa'+ID)
+				if (document.getElementById($("#" + ID).prev().attr('id')).type == "password") {
+					$("#" + ID).attr("data-hint", "Hide");
+					//$("#" + ID).find("i").removeClass("icon-eye").addClass("icon-eye-slash");
+					$("#" + ID).find("i").removeClass("icon-eye-slash").addClass("icon-eye");
+					document.getElementById($("#" + ID).prev().attr('id')).type = "text";
+				}
+				else {
+					$("#" + ID).attr("data-hint", "Show");
+					//$("#" + ID).find("i").removeClass("icon-eye-slash").addClass("icon-eye");
+					$("#" + ID).find("i").removeClass("icon-eye").addClass("icon-eye-slash");
+
+					document.getElementById($("#" + ID).prev().attr('id')).type = "password";
+				}
+			}
+		</script>
+
+
+<style>
+.adslot_1 {
+    width: 320px; 
+    height: 50px;
+}
+@media (min-width:500px) { 
+    .adslot_1 {
+        width: 468px; 
+        height: 60px;
+     }
+}
+@media (min-width:800px) { 
+    .adslot_1 {
+    width: 320px; 
+    height: 50px;
+    }
+}
+</style>
+
+
+
+<!-- Event snippet for Successful Recharge-Mobile Site conversion page -->
+</head>
+<body>
+<!--Start wrapper-->
+<div class="wrapper">
+
+
+<!--Start header-->
+<header>
+     <div class="logoholder"><img src="images/logopaybills.png"alt="" style="width: 100px;height: 50px;"></div>
+    <!-- -->
+    <!--<div class="homeicon"><a href="/user/home"><img src="/resources/images/ico-home.png" alt="home"></a>
+    </div>-->
+
+	
+</header>
+<!--End header-->
+<div class="clr"></div>
+<!--Start nav-->
+<form action="" name="loginForm" id="loginForm" method="post">
+    
+    <nav>
+        <ul>
+            
+            
+                <li> <a href="Home.html" rel="external"><img src="images/home-icon.png" style="width:13%;
+                                                                              alt="">Home</a></li>
+            
+
+            <!--                    <li class="active"><a href="#"><img src="/resources/images/nav-ico-login.png" alt="login">Login</a></li>-->
+            
+                <li class="active"><a href="homeLogin.html" rel="external"><img
+                        src="images/nav-ico-login.png" alt="login">login</a></li>
+            
+            
+            <li class="bdrnone"><a href="contactUs.html" rel="external"><img src="images/nav-ico-myaccount.png"
+                                                                           alt="contact">Account</a></li>
+
+        </ul>
+    </nav>
+    <!--End nav-->
+    <div class="clr"></div>
+    <!--Start container-->
+    <div class="container">
+        <!--Start login section-->
+        <section class="formbox">
+            <div class="errorSpan" id="errorSpan" style="margin-left: 23px; font-size: 0.90em;">
+                
+            </div>
+
+            
+            <!--                    	<form action="" method="get">-->
+            
+            <input type="hidden" id="rembembermePasswordId" name="rembembermePasswordId"
+                   value=""/>
+
+            <input type="hidden" id="pageIdentity" name="pageIdentity" value=""/>
+            <input type="hidden" id="selectboxtempcircle" name="selectboxtempcircle"
+                   value=""/>
+            <input type="hidden" id="dthpage" name="dthpage" value=""/>
+            <input type="hidden" id="datapage" name="datapage" value=""/>
+            <input type="hidden" id="billpaypage" name="billpaypage" value=""/>
+            <input type="hidden" id="UNIQUEID1" name="UNIQUEID1" value=""/>
+            <input type="hidden" id="CPN_TEMP_LOCK" name="CPN_TEMP_LOCK" value=""/>
+            <input type="hidden" id="CPN_SERIALNO" name="CPN_SERIALNO" value=""/>
+            <input type="hidden" id="tempCodeValueDeno" name="tempCodeValueDeno" value=""/>
+            <input type="hidden" id="RemaningValue" name="RemaningValue" value=""/>
+            <input type="hidden" id="homePageId" name="contactUsPageId" value=""/>
+            <input type="hidden" id="contactUsPageId" name="contactUsPageId" value=""/>
+            <input type="hidden" id="accountPageId" name="accountPageId" value=""/>
+            <input type="hidden" id="tempOperatorName" name="tempOperatorName" value=""/>
+            <input type="hidden" id="tempoperatorNameId" name="tempoperatorNameId" value=""/>
+            <input type="hidden" id="operatorTempNameId" name="operatorTempNameId" value=""/>
+            <input type="hidden" id="tempServiceName" name="tempServiceName" value=""/>
+            <input type="hidden" id="tempmobileno" name="tempmobileno" value=""/>
+            <input type="hidden" id="mobileNoHiddenId" name="mobileNoHiddenId" value=""/>
+            <input type="hidden" id="tempcircle" name="tempcircle" value=""/>
+            <!--                            <input type="text" id="tempAmount" name="tempAmount" value=""/>-->
+            <input type="hidden" id="dummyPaymentId" name="dummyPaymentId" value=""/>
+            <input type="hidden" id="tempcircleIdId" name="tempcircleIdId" value=""/>
+            <input type="hidden" id="operatorId" name="operatorId" value=""/>
+            <input type="hidden" id="subServiceId" name="subServiceId" value=""/>
+            <input type="hidden" id="sectorId" name="sectorId" value=""/>
+
+            <input type="hidden" id="hiddenTopSelectId" name="hiddenTopSelectId" value=""/>
+            <input type="hidden" id="CPN" name="CPN" value=""/>
+            <input type="hidden" id="MRP" name="MRP" value=""/>
+            <input type="hidden" id="PARTYCODE" name="PARTYCODE" value=""/>
+            <input type="hidden" id="selectAmountDenomenation" name="selectAmountDenomenation"
+                   value=""/>
+            <input type="hidden" id="tempplantypeId" name="tempplantypeId" value=""/>
+            <input type="hidden" id="AuthUser" name="AuthUser" value=""/>
+            <input type="hidden" id="userName" name="userName" value=""/>
+            <input type="hidden" id="accountno" name="accountno" value=""/>
+            <input type="hidden" id="userDetail" name="userDetail" value=""/>
+            <input type="hidden" id="partnerDiscountFlag" name="partnerDiscountFlag" value=""/>
+                <input type="hidden" id="discountCouponAmount" name="discountCouponAmount" value=""/>
+                <input type="hidden" id="discountAmount" name="discountAmount" value=""/>
+                <input type="hidden" id="collectionAmount" name="collectionAmount" value=""/>
+                <input type="hidden" id="couponCaption" name="couponCaption" value=""/>
+                <input type="hidden" id="discountCaptionName" name="discountCaptionName" value=""/>
+                <input type="hidden" id="collectionCaptionName" name="collectionCaptionName" value=""/>
+                <input type="hidden" id="couponApplicableFlag" name="couponApplicableFlag" value=""/>
+            <input type="hidden" id="methodfrom" name="methodfrom" value=""/>
+
+            <dl>
+                    <dd>
+                        
+                        
+                            <input type="email" name="emailId" id="emailId" placeholder="registered email"
+                                   value=""
+                                   class="textfiled_login" style="width:97%; padding: 0 1% 0 2%;"
+                                   onkeypress="emailAndPassword()">
+                        
+                        	
+						<input type="password" name="passwordId" id="passwordId" value="" placeholder="password"
+						style="width:97%; padding: 0 0 0 7px;margin:15px 6px 7px 0px"  maxlength="30" class="textAreaBoxInputs">
+					<div class="login-using">
+						
+						<div class="Login-pass">
+						<div class="login-using-inner">
+						
+					
+							   <!--span id="ShowHidePassword" class="dvShowHidePassword hint--top hint--bounce hint--rounded"
+								data-hint="Show" onclick="ShowHidePassword(this.id);">
+								<i class="icon icon-eye"></i-->
+
+								<span id="ShowHidePassword" class="dvShowHidePassword hint--top hint--bounce hint--rounded" data-hint="Hide" onclick="ShowHidePassword(this.id);">
+								<i class="icon icon-eye-slash"></i>
+								</span>
+
+							   <div class="fpassword1"><a href="forgotPassword.html" class="forgotpasword">forgot
+                                password ?</a></div>
+								<!--<div class="show-pass"><a href="#" onclick="toggle_password('passwordId');" id="showhide">Show</a></div>-->
+						
+								<!--<input id="txt_Password" class="textAreaBoxInputs" type="password">-->
+		
+
+						</div>
+						
+						<!--<div class="login-using-inner1">
+						<input name="radios" type="radio" class="gen-pas" onclick='otpDivShow()' id='otpradio'>
+						<label class="using-password-otp">if not, generate one time password (OTP)</label> </div>
+						</div>-->
+
+						<div class="Login-otp" id='Login-otp' style='display: none'>
+						<div class="login-using-inner2">
+						<label class="onetime-password-otp">(we will send OTP on your registered email id & mobile number)</label>
+						<p class="click-otp" id='click-otp'><a href="javascript:void(0)" onclick="generateOTP('DIRECTLOGIN')" id='generateOTP' >Click to generate OTP</a></p>
+						</div>
+
+						<div class="login-using-inner3">
+						<label class="using-password1">enter OTP</label> 
+						<input type="text" name="otppassword" id="otppassword"  maxlength="6" class="pass-textfiled" onkeypress="return isNumberKey(event)">
+                        <div class="mobile-number" id='mobile-number' style='display: none'>(we have sent OTP on your registered mobile number XXXXXX1234)</div>
+
+						<div class="re-generate"><a href="javascript:void(0)" onclick="generateOTP('DIRECTLOGIN')" id='reGenerateOTP'>Re-generate OTP</a></div>
+						</div>
+						</div>
+						
+						
+					</div>
+                    </dd>
+                    <!--<dd>
+
+                        <input type="password" name="passwordId" id="passwordId" value=""
+                               placeholder="password" maxlength="30" class="textfiled"
+                               style="width:97%;padding: 0 1% 0 2%;">
+                    </dd>-->
+                  <!--  
+                        <dd>
+                            <div class="checkbox" style="float: left;">-->
+                                <!--     <input name="remember" id="remember" type="checkbox" onclick="fncheckedRembember(this.checked);" value="">remember me-->
+                               <!-- <label><input name="remember" id="remember" type="checkbox" checked="checked"
+                                              onclick="fncheckedRembember(this.checked);"
+                                              style="margin: 0; padding: 0;">
+                                    remember me</label>
+
+
+                            </div>
+                            <div class="fpassword"><a href="/user/mobiles/forgotPassword" class="forgotpasword">forgot
+                                password ?</a></div>
+                        </dd>
+
+                    -->
+                    <!--<dd><input name="" type="submit" value="Submit" class="submutbtn"></dd>-->
+                    <dd style="margin: 3px 0;">
+                        
+                        
+                            <input name="loginSubmit" type="button" value="submit"
+                                   id="loginSubmit"
+                                   class="submutbtn procced" 
+                                   style="float:left; width:49%; margin-left:1%;">
+                        
+									<a href="registrationLogin.html">
+									   <input type="button" value="register" class="submutbtn procced"  style="float:left; width:48%; margin-left:1%;" />
+									</a>
+                        
+                            <!-- <input name="" type="button" value="Submit" class="submutbtn procced" style="float:left; width:49%; margin-left:1%; ">
+                            <input name="" type="button" value="register" class="submutbtn procced"
+                                   onclick="javascript:registrationRequestfromLogin('registrationLogin.html')"
+                                   style="float:left; width:48%; margin-left:1%;">-->
+                        
+                    </dd>
+                </dl>
+
+
+            
+                
+                <dl>
+                    <dd style="margin: 3px 0;">
+                        <div class="clr"></div>
+                        <!--Start Login via social networks-->
+                        <div class="socialnetworks1">
+                            <h2><span>Login via social networks</span></h2>
+                            <ul style="float: left; margin: 0px; width: 100%; padding: 0px;">
+                                <!--           	  <li><a href="#"><img src="/resources/images/ico-facebook.jpg" ></a></li>-->
+                               <li><a href="https://www.facebook.com/dialog/oauth?client_id=419029448283661&amp;redirect_uri=https://m.rechargeitnow.com/user/loginByFB2&amp;scope=email"><img src="images/ico-facebook.jpg"></a></li>
+                                <li><a href="https://m.rechargeitnow.com/user/loginByyahoo"><img src="images/ico-yahoo.jpg" ></a></li>
+                                <!--                                    <li><a href="/user/loginByTwitter"><img src="/resources/images/ico-twitter.jpg" ></a></li>-->
+                                <li><a href="https://api.linkedin.com/uas/oauth/authenticate?oauth_token=81--2139afd2-604d-4d3b-bd84-6f45e9933c53"><img
+                                        src="images/ico-linkedin.jpg"></a></li>
+                                    
+                                <li><a href="https://accounts.google.com/o/oauth2/auth?scope=email&amp;redirect_uri=https://m.rechargeitnow.com/user/returnGoogle&amp;client_id=670857488846.apps.googleusercontent.com&amp;response_type=code"><img
+                                        src="images/ico-google.jpg"></a></li>
+                            </ul>
+                        </div>
+                        <!--End Login via social networks-->
+
+
+                    </dd>
+                </dl>
+                    
+            
+            <div class="clr"></div>
+        </section>
+        <!--End login section-->
+    </div>
+</form>
+
+<!--End container-->
+<!--Start footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Start footer-->
+
+<div style="padding: 0px 0px 7px 0; width:auto;" id="adtxt">
+    <table width="100%" align="center">
+        <tbody>
+        <tr>
+            <td align="center">
+                <tbody>
+        <tr>
+            <td align="center">
+                
+                
+                <script type="text/javascript">
+
+                    /*var seconds = new Date().getTime() / 1000;
+                     alert("Seconds : "+seconds+" for datetime "+new Date().getSeconds()+"Date time : "+new Date().getHours())
+                     */
+                    var myWidth = 0, myHeight = 0;
+                    if (typeof( window.innerWidth ) == 'number') {
+//Non-IE
+                        myWidth = window.innerWidth;
+                        myHeight = window.innerHeight;
+                    } else if (document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight )) {
+//IE 6+ in 'standards compliant mode'
+                        myWidth = document.documentElement.clientWidth;
+                        myHeight = document.documentElement.clientHeight;
+                    }
+                    /* window.alert( 'Width = ' + myWidth );
+                     window.alert( 'Height = ' + myHeight );
+                     window.alert("Display : "+document.getElementById("adtxt").style.display);*/
+
+                    if (myWidth < 320) {
+                        document.getElementById("adtxt").style.display = "none";
+                    }
+
+                </script>
+                
+               
+                
+
+
+                
+                
+
+                
+
+
+                
+                <br>
+
+                
+
+                  
+                
+                <br>
+
+				<!--<a href="https://wwwc.rechargeitnow.com/earn-free-online-recharge/index.jspx?utm_source=WAP_Footer%20Banner&utm_medium=Wap_Banner&utm_campaign=WAP_Footer%20Banner_1000" target="_blank"><img src="/resources/images/wap-footer-banner_320x50.jpg" alt="Get Free Recharge of over Rs.1000 and more." title="Get Free Recharge of over Rs.1000 and more."/></a>-->
+
+				
+
+                <!--<a href="https://wwwc.rechargeitnow.com/earn-free-online-recharge?utm_source=WAP_Footer_Banner&utm_medium=Footer_Banner&utm_campaign=RC150X4BBazaar" target="_blank"><img src="/resources/images/getfreerecharge_Amex_wap2.png" alt="Get Rs.150 Free Recharge" title="Get Rs.150 Free Recharge" style="width:320px;height:50px;margin:0 auto;text-align:center;"/></a>-->
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<footer>
+   <ul>
+  
+	<li class="switch-desktop"><br/>&copy; 2013 rechargeitnow.com. All Rights Reserved.
+	<br/>
+	
+	</li>
+	</ul>
+
+</footer>
+
+<!--End footer-->
+
+<!--End footer-->
+</div>
+<!--End wrapper-->
+
+  <!--<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5713870"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5713870&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>-->
+
+</body>
+
+<!-- Mirrored from m.rechargeitnow.com/user/homeLogin by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 19 Feb 2018 06:04:24 GMT -->
+</html>
+<script type="text/javascript">
+
+    function fncheckedRembember(blnchecked) {
+
+        if (blnchecked) {
+
+            document.getElementById("rembembermePasswordId").value = "1";
+
+        }
+        else {
+
+            document.getElementById("rembembermePasswordId").value = "2";
+
+        }
+
+    }
+
+</script>
+
+<script type="text/javascript">
+
+    function setCredentialsFromCookie() {
+    
+        var userName = getCookie("rin_userName");
+
+        var password = getCookie("rin_password");
+
+        if (userName != null) {
+            document.getElementById("emailId").value = userName;
+        }
+        if (password != null) {
+            document.getElementById("passwordId").value = password;
+        }
+    
+
+    }
+
+    function getCookie(c_name) {
+
+
+        var c_value = document.cookie;
+
+        var c_start = c_value.indexOf(" " + c_name + "=");
+        if (c_start == -1) {
+            c_start = c_value.indexOf(c_name + "=");
+        }
+        if (c_start == -1) {
+            c_value = null;
+        }
+        else {
+            c_start = c_value.indexOf("=", c_start) + 1;
+            var c_end = c_value.indexOf(";", c_start);
+            if (c_end == -1) {
+                c_end = c_value.length;
+            }
+            c_value = unescape(c_value.substring(c_start, c_end));
+
+        }
+        return c_value;
+    }
+
+    function setCookie(c_name, value, exdays) {
+
+
+        var exdate = new Date();
+        exdate.setDate(exdate.getDate() + exdays);
+        var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+        document.cookie = c_name + "=" + c_value;
+    }
+
+    function checkCookie() {
+        var username = getCookie("username");
+        if (username != null && username != "") {
+            alert("Welcome again " + username);
+        }
+        else {
+            username = prompt("Please enter your name:", "");
+            if (username != null && username != "") {
+                setCookie("username", username, 365);
+            }
+        }
+    }
+</script>
+
+
+
+<script type="text/javascript">
+
+
+    
+        $('#generateOTP').hide();
+        $('#reGenerateOTP').show();
+    
+
+    
+        $('#generateOTP').show();
+        $('#reGenerateOTP').hide();
+    
+    
+
+
+
+    //if (document.getElementById("remember").checked = true) {
+    //    document.getElementById("rembembermePasswordId").value = "1";
+   // }
+
+
+</script>
+<script type="text/javascript">
+    function emailAndPassword() {
+
+        var email = document.getElementById("emailId").value;
+
+        if (email.length == 1) {
+
+            document.getElementById("passwordId").value = "";
+        }
+    }
+
+
+</script>
+
